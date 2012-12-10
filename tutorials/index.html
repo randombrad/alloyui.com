@@ -12,19 +12,19 @@
   <link href="http://deploy.alloyui.com/build/aui-skin-classic/css/aui-skin-classic-all-min.css" rel="stylesheet">
 
   <!-- CSS: Bootstrap -->
-  <link href="http://liferay.github.com/alloyui.com/css/bootstrap.css" rel="stylesheet">
+  <link href="<%= @site.url %>/css/bootstrap.css" rel="stylesheet">
 
   <!-- CSS: Syntax Highlight -->
-  <link href="http://liferay.github.com/alloyui.com/css/monokai-syntax-highlight.css" rel="stylesheet">
+  <link href="<%= @site.url %>/css/monokai-syntax-highlight.css" rel="stylesheet">
 
   <!-- CSS: My own -->
-  <link href="http://liferay.github.com/alloyui.com/css/main.css" rel="stylesheet">
+  <link href="<%= @site.url %>/css/main.css" rel="stylesheet">
 
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,700' rel='stylesheet' type='text/css'>
 
   <!-- JS -->
-  <script src="http://deploy.alloyui.com/build/aui/aui.js"></script>
+  <script src="<%= @cdn %>"></script>
 
 </head>
 <body>
@@ -34,16 +34,16 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="brand" href="http://liferay.github.com/alloyui.com"><img src="http://liferay.github.com/alloyui.com/img/logo.png" alt="AlloyUI"></a>
+          <a class="brand" href="<%= @site.url %>"><img src="<%= @site.url %>/img/logo.png" alt="AlloyUI"></a>
           <div class="pull-right">
             <ul class="nav">
-              <li><a href="http://liferay.github.com/alloyui.com/examples/">Examples</a></li>
-              <li><a href="http://liferay.github.com/alloyui.com/tutorials/">Tutorials</a></li>
+              <li><a href="<%= @site.url %>/examples/">Examples</a></li>
+              <li><a href="<%= @site.url %>/tutorials/">Tutorials</a></li>
               <li><a href="http://deploy.alloyui.com/api/">API Docs</a></li>
               <li><a href="http://deploy.alloyui.com/docs/">Rosseta Stone</a></li>
-              <li><a href="http://liferay.github.com/alloyui.com/discussion/">Discussion</a></li>
-              <li><a href="http://liferay.github.com/alloyui.com/contributing/">Contributing</a></li>
-              <li><a href="http://liferay.github.com/alloyui.com/about/">About</a></li>
+              <li><a href="<%= @site.url %>/discussion/">Discussion</a></li>
+              <li><a href="<%= @site.url %>/contributing/">Contributing</a></li>
+              <li><a href="<%= @site.url %>/about/">About</a></li>
             </ul>
           </div>
         </div>
@@ -52,7 +52,7 @@
 
     <div class="hero-unit">
       <div class="container">
-        <img src="http://liferay.github.com/alloyui.com/img/screenshots.png" alt="Screenshots of AlloyUI">
+        <img src="<%= @site.url %>/img/screenshots.png" alt="Screenshots of AlloyUI">
         <div class="presentation">
           <h2>Simply Powerful</h2>
           <h3>Robust UI tools at your fingertips.</h3>
@@ -64,262 +64,7 @@
     </div>
 
     <div id="content">
-      <div class="container">
-
-  <div class="span3 bs-docs-sidebar">
-    <p class="related">List of components</p>
-    <ul class="nav nav-list bs-docs-sidenav affix-top">
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-            <li><a href="http://liferay.github.com/alloyui.com/tutorials/carousel/index.html" class="iframe-link"><i class="icon-chevron-right"></i> Carousel</a></li>
-          
-        
-      
-        
-          
-            <li><a href="http://liferay.github.com/alloyui.com/tutorials/io/index.html" class="iframe-link"><i class="icon-chevron-right"></i> I/O</a></li>
-          
-        
-      
-        
-          
-            <li><a href="http://liferay.github.com/alloyui.com/tutorials/autocomplete/index.html" class="iframe-link"><i class="icon-chevron-right"></i> AutoComplete</a></li>
-          
-        
-      
-        
-          
-            <li><a href="http://liferay.github.com/alloyui.com/tutorials/dialog/index.html" class="iframe-link"><i class="icon-chevron-right"></i> Dialog</a></li>
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-      
-        
-          
-            <li><a href="http://liferay.github.com/alloyui.com/tutorials/textboxlist/index.html" class="iframe-link"><i class="icon-chevron-right"></i> Textbox List</a></li>
-          
-        
-      
-        
-      
-        
-          
-            <li><a href="http://liferay.github.com/alloyui.com/tutorials/tooltip/index.html" class="iframe-link"><i class="icon-chevron-right"></i> Tooltip</a></li>
-          
-        
-      
-        
-      
-        
-      
-    </ul>
-  </div>
-
-  <div class="span9">
-
-    <h1>First Steps</h1>
-
-    <p>A few things you should do to start creating awesome websites with shining components ;)</p>
-
-    <hr>
-
-    <h4>1. Copy and paste</h4>
-
-    <pre class="highlighted"><code class="xml"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"http://deploy.alloyui.com/build/aui/aui.js"</span>&gt;</span><span class="javascript"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></code></pre>
-
-    <p>The YUI seed file is an ultra-small bit of JavaScript that enables you to load any YUI component on your page.</p>
-
-    <hr>
-
-    <h4>2. Start using YUI!</h4>
-
-    <pre class="highlighted"><code class="xml"><span class="tag">&lt;<span class="title">script</span>&gt;</span><span class="javascript">
-<span class="comment">// Create a YUI sandbox on your page.</span>
-YUI().use(<span class="string">'node'</span>, <span class="string">'event'</span>, <span class="function"><span class="keyword">function</span> <span class="params">(Y)</span> {</span>
-    <span class="comment">// The Node and Event modules are loaded and ready to use.</span>
-    <span class="comment">// Your code goes here!</span>
-});
-</span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></code></pre>
-
-    <p>Create a YUI instance, called a "sandbox", to use any YUI component. Each YUI sandbox has its own instance of YUI (that's the Y parameter that gets passed to the callback function) and its own set of activated modules, so it won't conflict with other sandboxes on the same page. Any variables you declare inside your sandbox will only be available in that sandbox and won't pollute the global scope.</p>
-
-    <p>When creating your YUI sandbox, specify the modules you'd like to use. In this example, we're using the node and event modules. Then, from inside the sandbox, you can access the Node and Event APIs via the Y instance.</p>
-
-    <p>YUI will manage all dependency calculations for the modules you need and load the JavaScript onto your page in a single, combined request. Your code inside the sandbox will execute as soon as all the requested YUI modules are loaded onto the page.</p>
-
-  </div>
-
-</div>
+      <%- @content %>
     </div>
 
     <div id="push"></div>
